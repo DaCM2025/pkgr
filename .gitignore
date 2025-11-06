@@ -1,1 +1,58 @@
-docs
+# R history and session data
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# Uncomment if you don't want to track the .Rproj file
+# *.Rproj
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Package build artifacts
+*.tar.gz
+*.Rcheck/
+
+# R CMD build / temp files
+.Rbuildignore~
+*.o
+*.so
+*.dll
+
+# Documentation built by R CMD build / check
+inst/doc/
+doc/
+Meta/
+
+# Vignette outputs (keep the sources: .Rmd, .Rnw, etc.)
+vignettes/*.html
+vignettes/*.pdf
+vignettes/*_cache/
+vignettes/figure/
+
+# pkgdown site
+docs/
+
+# Coverage reports
+*.lcov
+coverage.html
+covr.xml
+
+# renv (keep lockfile + infra, ignore local libs)
+renv/library/
+renv/staging/
+
+# knitr / rmarkdown intermediates
+*.*.utf8.md
+*.*.knit.md
+*.utf8.md
+*.knit.md
+
+# OAuth tokens, if any
+.httr-oauth
+
